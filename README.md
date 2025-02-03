@@ -100,11 +100,11 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 codeguide-starter/
 ├── app/                # Next.js app router pages
 ├── components/         # React components
-├── utils/             # Utility functions
-├── public/            # Static assets
-├── styles/            # Global styles
-├── documentation/     # Generated documentation from CodeGuide
-└── supabase/          # Supabase configurations and migrations
+├── utils/              # Utility functions
+├── public/             # Static assets
+├── styles/             # Global styles
+├── documentation/      # Generated documentation from CodeGuide
+└── supabase/           # Supabase configurations and migrations
 ```
 
 ## Documentation Setup
