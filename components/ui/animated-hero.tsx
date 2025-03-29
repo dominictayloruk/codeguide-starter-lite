@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { motion } from 'framer-motion'
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { MoveRight, PhoneCall } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
