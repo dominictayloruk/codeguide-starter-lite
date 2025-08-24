@@ -1,13 +1,12 @@
 [![CodeGuide](/codeguide-backdrop.svg)](https://codeguide.dev)
 
-
 # CodeGuide Starter Lite
 
-A modern web application starter template built with Next.js 14, featuring authentication, database integration.
+A modern web application starter template built with Next.js 15, featuring authentication, database integration.
 
 ## Tech Stack
 
-- **Framework:** [Next.js 14](https://nextjs.org/) (App Router)
+- **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
 - **Authentication:** [Clerk](https://clerk.com/)
 - **Database:** [Supabase](https://supabase.com/)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/)
@@ -16,6 +15,7 @@ A modern web application starter template built with Next.js 14, featuring authe
 ## Prerequisites
 
 Before you begin, ensure you have the following:
+
 - Node.js 18+ installed
 - A [Clerk](https://clerk.com/) account for authentication
 - A [Supabase](https://supabase.com/) account for database
@@ -24,12 +24,14 @@ Before you begin, ensure you have the following:
 ## Getting Started
 
 1. **Clone the repository**
+
    ```bash
    git clone <repository-url>
    cd codeguide-starter-lite
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    # or
@@ -46,6 +48,7 @@ Before you begin, ensure you have the following:
    - Fill in the environment variables in `.env` (see Configuration section below)
 
 4. **Start the development server**
+
    ```bash
    npm run dev
    # or
@@ -59,12 +62,14 @@ Before you begin, ensure you have the following:
 ## Configuration
 
 ### Clerk Setup
+
 1. Go to [Clerk Dashboard](https://dashboard.clerk.com/)
 2. Create a new application
 3. Go to API Keys
 4. Copy the `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY`
 
 ### Supabase Setup
+
 1. Go to [Supabase Dashboard](https://app.supabase.com/)
 2. Create a new project
 3. Go to Project Settings > API
@@ -112,15 +117,17 @@ codeguide-starter/
 To implement the generated documentation from CodeGuide:
 
 1. Create a `documentation` folder in the root directory:
+
    ```bash
    mkdir documentation
    ```
 
 2. Place all generated markdown files from CodeGuide in this directory:
+
    ```bash
    # Example structure
    documentation/
-   ├── project_requirements_document.md             
+   ├── project_requirements_document.md
    ├── app_flow_document.md
    ├── frontend_guideline_document.md
    └── backend_structure_document.md

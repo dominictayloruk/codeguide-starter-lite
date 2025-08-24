@@ -3,7 +3,7 @@
 This starter kit uses the following tech stack:
 
 1. **Core Framework and Runtime:**
-   - **Next.js 14.2.23**: The main framework used for building the application, providing server-side rendering, routing, and API capabilities
+   - **Next.js 15.5.0**: The main framework used for building the application, providing server-side rendering, routing, and API capabilities
    - **React 18**: The underlying UI library for building components
    - **TypeScript**: Used for type-safe development
 
@@ -37,29 +37,30 @@ This starter kit uses the following tech stack:
    - **class-variance-authority**: For managing component variants
    - **clsx** and **tailwind-merge**: For conditional class name handling
 
-6. **Form Handling and Validation:**
+5. **Form Handling and Validation:**
    - **React Hook Form**: For form management
    - **Zod**: For schema validation
    - **@hookform/resolvers**: For integrating Zod with React Hook Form
 
-7. **Date Handling and Charts:**
+6. **Date Handling and Charts:**
    - **date-fns**: For date manipulation
    - **React Day Picker**: For date picking components
    - **Recharts**: For data visualization and charts
 
-8. **Development Tools:**
+7. **Development Tools:**
    - **ESLint**: For code linting
    - **Prettier**: For code formatting with Tailwind plugin
    - **TypeScript**: For static type checking
    - **PostCSS**: For CSS processing
 
-9. **UI/UX Features:**
+8. **UI/UX Features:**
    - **next-themes**: For dark/light theme switching
    - **react-resizable-panels**: For resizable layout panels
    - **vaul**: For additional UI components
    - **cmdk**: For command palette functionality
 
 The project is set up as a modern SaaS application with:
+
 - Full subscription management system
 - Secure authentication
 - Type-safe development
