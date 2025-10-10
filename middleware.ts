@@ -1,8 +1,8 @@
-import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server'
-import { NextRequest, NextResponse } from 'next/server'
+// import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server'
+import { NextResponse } from 'next/server'
 
 // Default Next.js middleware to allow all requests
-export function middleware(request: NextRequest) {
+export function middleware() {
   return NextResponse.next()
 }
 
