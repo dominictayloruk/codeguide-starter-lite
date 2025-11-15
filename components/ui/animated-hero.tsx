@@ -64,7 +64,7 @@ function Hero() {
               <span className="text-spektr-cyan-50">Starter Kit Lite</span>
             </h1>
 
-            <p className="max-w-2xl text-center text-lg leading-relaxed tracking-tight text-muted-foreground md:mt-8 md:text-xl">
+            <p className="text-muted-foreground max-w-2xl text-center text-lg leading-relaxed tracking-tight md:mt-8 md:text-xl">
               Start building with a modern web application template featuring authentication,
               database integration. Built with Next.js 15, Clerk, Supabase.
             </p>
