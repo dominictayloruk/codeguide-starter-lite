@@ -3,7 +3,7 @@
 This starter kit uses the following tech stack:
 
 1. **Core Framework and Runtime:**
-   - **Next.js 15.5.0**: The main framework used for building the application, providing server-side rendering, routing, and API capabilities
+   - **Next.js 16.0.3**: The main framework used for building the application, providing server-side rendering, routing, and API capabilities
    - **React 18**: The underlying UI library for building components
    - **TypeScript**: Used for type-safe development
 

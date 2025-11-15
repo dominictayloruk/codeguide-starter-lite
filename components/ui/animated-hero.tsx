@@ -66,7 +66,7 @@ function Hero() {
 
             <p className="text-muted-foreground max-w-2xl text-center text-lg leading-relaxed tracking-tight md:mt-8 md:text-xl">
               Start building with a modern web application template featuring authentication,
-              database integration. Built with Next.js 15, Clerk, Supabase.
+              database integration. Built with Next.js 16, Clerk, Supabase.
             </p>
           </div>
           <div className="flex flex-row gap-3">

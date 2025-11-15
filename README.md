@@ -2,11 +2,11 @@
 
 # CodeGuide Starter Lite
 
-A modern web application starter template built with Next.js 15, featuring authentication, database integration.
+A modern web application starter template built with Next.js 16, featuring authentication, database integration.
 
 ## Tech Stack
 
-- **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+- **Framework:** [Next.js 16](https://nextjs.org/) (App Router)
 - **Authentication:** [Clerk](https://clerk.com/)
 - **Database:** [Supabase](https://supabase.com/)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/)

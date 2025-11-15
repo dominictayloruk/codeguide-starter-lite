@@ -2,7 +2,7 @@
 import { NextResponse } from 'next/server'
 
 // Default Next.js middleware to allow all requests
-export function middleware() {
+export function proxy() {
   return NextResponse.next()
 }
 
