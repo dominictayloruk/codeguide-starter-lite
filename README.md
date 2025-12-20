@@ -16,7 +16,7 @@ A modern web application starter template built with Next.js 16, featuring authe
 
 Before you begin, ensure you have the following:
 
-- Node.js 18+ installed
+- Node.js 22+ installed
 - A [Clerk](https://clerk.com/) account for authentication
 - A [Supabase](https://supabase.com/) account for database
 - Generated project documents from [CodeGuide](https://codeguide.dev/) for best development experience
