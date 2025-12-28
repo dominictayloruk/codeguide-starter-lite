@@ -2,7 +2,7 @@
   "name": "codeguide-starter-lite",
   "version": "0.1.1",
   "private": true,
-  "packageManager": "pnpm@10.26.1",
+  "packageManager": "pnpm@10.26.2",
   "engines": {
     "node": ">=22"
   },
@@ -91,7 +91,9 @@
       "js-yaml@>=4.0.0 <4.1.1": ">=4.1.1"
     },
     "onlyBuiltDependencies": [
-      "@clerk/shared"
+      "@clerk/shared",
+      "sharp",
+      "unrs-resolver"
     ]
   }
 }
